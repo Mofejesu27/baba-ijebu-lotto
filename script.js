@@ -21,9 +21,9 @@ function play (){
     }
 
     if(correctGuess.length >=3){
-        document.getElementById('result').innerHTML = "You win!!"
+        document.getElementById('result').innerHTML = "You win!"
     }else{
-        document.getElementById('result').innerHTML = "You lose, money wasted!"
+        document.getElementById('result').innerHTML = "You lose!"
     }
 
     document.getElementById('random').innerHTML = random
