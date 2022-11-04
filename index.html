@@ -11,23 +11,33 @@
     <h1>Welcome to Baba Ijebu Premier Lotto</h1>
    <div class="display">
         <div>
-            <h3>Baba Ijebu Lotto</h3>
-            <p>Three Direct Game</p>
+            <h3>BABA IJEBU LOTTO</h3>
+            <p><b>Three Direct Game</b></p>
+            <p><b>Enter your numbers in this format: 60,70,80</b></p>
         </div>
     
   
-        <form action="" id="">      
-            <input type="text" name="inputnum" id="input"> 
-            <!-- <input type="number" name="random" id="random" placeholder="" value=""> 
-            <input type="text" name="luckynum" id="luck" placeholder="" value="">  -->
+        <form>      
+           <input type="text" name="inputnum" id="input" placeholder="input your numbers"> 
+          <div>
+             <label for="random"><b>Random Numbers:</b></label>
+             <input type="text" id="random" name="random" max="0">            
+          </div>
+     
+          <div>
+              <label for="predicted"><b>Predicted Numbers:</b></label>
+              <input type="text" id="predictednum" name="predicted" max="1">
+          </div>
+          
+          <p><strong>Lotto Result: </strong><span id="result"></span></p>
+
+            <input type="button" value="PLAY" onclick="play()" id="playbutton">
+            
                     
         </form>
 
-        <button id="play" type="submit" onclick="play()">Play</button>
 
-        <p id="randomnum">Random number: <strong id="random"></strong></p>
-        <p id="predictednumber">Predicted number: <strong id="predictednum"></strong></p>
-        <p id="output">Lotto Result: <strong id="result"></strong></p>
+        
 
     </div>
    

@@ -9,6 +9,12 @@ h1{
     padding: 20px;
 }
 
+h3{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
 .display{
     width: 400px;
     margin: auto;
@@ -16,16 +22,18 @@ h1{
    background-color: rgba(100, 148, 237, 0.53);
     text-align: center;
     border-radius: 15px;
-    height: 250px;
+    height: 370px;
 }
 
 input {
     width: 150px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 5px;
+    border: none;
+    border-radius: 10px;
 }
 
-#play{
+#playbutton{
     width: 60px;
     background-color: red;
     color: white;
